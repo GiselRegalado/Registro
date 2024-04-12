@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="preload" href="css/estilo.css">
+  <title>Registro</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="barra">
+            <!-- COMIENZA MENU HAMBURGUEZA OCULTO -->
+            <label for="inp-amb">
+                <img src="img/icon-menu.png" class="menu-amb">
+                <img src="img/cerrar-menu.png" class="cerrar-amb">
+            </label>
+            <input type="checkbox" id="inp-amb" checked hidden><!-- CHECADA POR DEFECTO -->
+            <!-- FINALIZA MENU HAMBURGUEZA OCULTO -->
+            <div class="logo">
+                <a href="index.html"><img class="logo" src="img/logo.jpg"></a>
+            </div>
+            <div class="menu">
+                <a href="#">MEZCAL</a>
+                <a href="#">CREMAS</a>
+                <a href="#">CONTACTO</a>
+                <a href="#">SOBRE NOSOTROS</a>
+            </div>
+            <div class="login">
+                <h1>Guarú Mezcal</h1>
+                <a href="Login/index.html"><img src="img/usuario.png"></a>
+            </div>
+        
+    </header>
+
+  <section class="form-register">
+    <h4>REGISTRO</h4>
+    <form>
+    <input class="controls" type="email" name="correo" id="correo" placeholder="Correo Electronico">
+    <input class="controls" type="password" name="corre0" id="password" placeholder="Contraseña">
+    <input class="controls" type="password" name="correo" id="password2" placeholder="Confirmar su Contraseña">
+    <input class="controls" type="text" name="pais" id="pais" placeholder="Pais">
+    <input class="controls" type="text" name="usuario" id="usuario" placeholder="Usuario">
+    <div class="chek">
+    <p><input type="checkbox"> Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+    </div>
+    <a href="#">
+    <input class="botons" id="btn-env" type="submit" value="Registrar" >
+    </a>
+    </form>
+  </section>
+
+  <footer class="footer">
+    <div class="logo-f">
+        <a href="index.html"><img src="img/logo.jpg" width="120px"></a>
+    </div>
+    <div class="redes-s">
+        <a href="#"><img src="img/facebook.png" width="25px"></a>
+    </div>
+    <div class="listas">
+        <ul class="ul1">
+            <li >MEZCAL</li>
+            <li class="sub-li"><a href="#">Mezcal Joven</a></li>
+            <li class="sub-li"><a href="#">Mezcal Reposado</a></li>
+            <li class="sub-li"><a href="#">Mezcal Añejo</a></li>
+            <li class="sub-li"><a href="#">MEzcal Maduro</a></li>
+        </ul>
+        <ul class="ul2">
+            <li>CREMAS</li>
+            <li class="sub-li"><a href="#">Conócelas</a></li>
+            <li class="sub-li"><a href="#">Sabores</a></li>
+        </ul>
+        <ul class="ul3">
+            <li>CONTACTO</li>
+            <li class="sub-li"><a href="#">regalado.vero@gmail.com</a></li>
+            <li class="sub-li"><a href="#">443-371-0116</a></li>
+        </ul>
+        <ul class="ul4">
+            <li>SOBRE NOSOTROS</li>
+            <li class="sub-li"><a href="#">Morelia, México</a></li>
+            <li class="sub-li"><a href="#">¿Quiénes somos?</a></li>
+            <li class="sub-li"><a href="#">Misión y visión</a></li>
+        </ul>
+
+    </div>
+    
+    
+</footer>
+<script src="js/appRegistro.js"></script>
+<script src="js/correo.js"></script>
+</body>
+</html>
